@@ -1,0 +1,29 @@
+body {
+  background-image: url("./img/positiveMix.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  color: #fff;
+  /*
+  text-indent: 15px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  */
+}
+
+#caja {
+  border: 5px solid black;
+  padding: 10px;
+  background-color: rgb(74, 110, 187);
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+h2 {
+  color: red;
+}

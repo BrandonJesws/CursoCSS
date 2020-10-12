@@ -1,0 +1,63 @@
+/* 
+#################### SELECTORES #################### 
+*/
+
+/* Selector universal */
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0;
+}
+
+/* Selector de etiqueta */
+h1{
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+a{
+  font-size: 18px;
+  color: green;
+  text-decoration: none;
+}
+
+footer a{
+  color: red;
+}
+
+/* Selector de id */
+#identificador{
+  border: 1px solid black;
+}
+
+/* Selector de clases */
+.clase{
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Selector de atributo */
+input[type="text"]{
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 300px;
+}
+
+/* Selectores hijos */
+#menu > li > a{
+  font-size: 18px;
+  color: red;
+  text-decoration: none;
+}
+
+
+/* ESPECIFICIDAD */
+/*
+Elemento: 1
+Clase: 10
+Identificador: 100
+Estilos en linea: 1000
+Important: 10000
+*/
